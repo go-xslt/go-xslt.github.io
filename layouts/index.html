@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ .Site.Title }} — Pure-Go XSLT.</title>
+<meta name="description" content="Pure-Go XSLT.">
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
+<link rel="stylesheet" href="{{ "css/brand.css" | relURL }}">
+<script src="{{ "js/theme.js" | relURL }}"></script>
+</head><body>
+<section class="hero">
+  <button id="themebtn" class="theme" type="button">Theme: System</button>
+  <img src="{{ "img/go-xslt-white.png" | relURL }}" alt="go-xslt">
+  <h1>go-xslt</h1>
+  <p>Pure-Go XSLT.</p>
+  <div class="btns">
+    <a class="btn btn-solid" href="https://go-xslt.github.io/docs/">Documentation</a>
+    <a class="btn btn-ghost" href="https://github.com/go-xslt">GitHub</a>
+  </div>
+</section>
+<div class="wrap">
+  <div class="panel">
+    <h2>What is go-xslt?</h2>
+    <p>go-xslt is a pure-Go (CGO_ENABLED=0) XSLT processor: it applies XSL transformations over a pure-Go XML DOM (go-nokogiri), with no libxslt and no cgo.</p>
+  </div>
+  <h2 class="section">Packages</h2>
+  <p class="sub">{{ len site.Data.pkgs.packages }} module(s) — generated from the org's repos.</p>
+  <div class="grid">
+    <div class="card"><div class="chip">XS</div><div class="nm">xslt</div><div class="ds">XSLT processor over a pure-Go XML DOM (go-nokogiri) — no libxslt, no cgo.</div><div class="lk"><a href="https://github.com/go-xslt/xslt">GitHub</a> · <a href="https://pkg.go.dev/github.com/go-xslt/xslt">pkg.go.dev</a></div></div>
+  </div>
+</div>
+<footer>Built with Hugo · Pure Go, CGO=0 · Branding from <a href="https://github.com/go-xslt/brand">go-xslt/brand</a></footer>
+</body></html>

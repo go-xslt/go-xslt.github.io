@@ -1,0 +1,2 @@
+packages:
+  - { name: "xslt", desc: "XSLT processor over a pure-Go XML DOM (go-nokogiri) — no libxslt, no cgo.", url: "https://github.com/go-xslt/xslt", doc: "https://pkg.go.dev/github.com/go-xslt/xslt" }

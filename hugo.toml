@@ -1,0 +1,4 @@
+baseURL = "https://go-xslt.github.io/"
+languageCode = "en-us"
+title = "go-xslt"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
